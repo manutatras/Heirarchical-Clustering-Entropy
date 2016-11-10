@@ -1,7 +1,7 @@
 
 # Hierarchical clustering based on Information loss
 
-#### Requirements ####
+### Requirements 
 
 -pandas
 

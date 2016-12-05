@@ -75,7 +75,7 @@ class Attr_group():
     def start(self,df2,lam,num):
         #Code starts here
         df_list = {}
-        alpha = 1/num
+        alpha = 1/(num-1)
         def add_one(x):
             return (x+lam*alpha)/(x.sum()+lam)
         
